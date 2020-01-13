@@ -6,7 +6,7 @@ beta[]
 
 You can visualize your rolled up data in a variety of charts, tables, maps, and
 more. Most visualizations support rolled up data, with the exception of
-Timelion, TSVB, and Vega visualizations.
+Timelion and Vega visualizations.
 
 To get started, go to *Management > Kibana > Index patterns.*
 If a rollup index is detected in the cluster, *Create index pattern*
@@ -30,7 +30,7 @@ numeric field values or terms. You can ask for a time aggregation that takes
 several time buckets and combines them to lower granularity. For example,
 if the rollup job was aggregated by hours, you can ask for buckets of days.
 
-The following visualization of rolled up data shows the date histogram 
+The following visualization of rolled up data shows the date histogram
 interval multiple and the limited metrics aggregations.
 
 [role="screenshot"]
